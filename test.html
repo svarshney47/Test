@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>hello css</title>
+	<style>
+		.bg-primary{
+			background-color: grey;
+		}
+		@media (max-width: 720px){
+			.bg-primary{
+				background-color: red;
+			}
+		}
+		@media (min-width: 721px) and (max-width:991px){
+			.bg-primary{
+				background-color: blue;
+			}
+		}
+		@media (min-width: 992px) and (max-width: 1199px) {
+			  /* Header */
+			  .bg-primary,#p1{
+			    background-color: grey;
+			    font-size: 100px;
+			  }
+	</style>
+</head>
+<body class="bg-primary"> 
+	<p id="p1">Hello css</p>
+</body>
+</html>
